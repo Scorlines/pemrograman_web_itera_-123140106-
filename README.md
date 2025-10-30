@@ -4,7 +4,7 @@
 **Nama** : Muhammad Fadhel  
 **NIM**  : 123140106  
 **Mata Kuliah**: Pemrograman Web  
-**Pertemuan**: 4  
+**Pertemuan**: 2  
 
 ---
 
@@ -26,7 +26,7 @@ File utama:
    ```
 2. Buka folder:
    ```bash
-   cd muhammadfadhel_123140106_pertemuan4
+   cd muhammadfadhel_123140106_pertemuan2
    ```
 3. Jalankan aplikasi dengan membuka `index.html` di browser (cukup klik dua kali).
 
@@ -77,18 +77,6 @@ pemrograman_web_itera_123140106/
 │     └─ list.png
 ```
 
----
-
-## Kriteria Penilaian
-| Aspek | Bobot | Status |
-|--------|--------|--------|
-| Fungsionalitas & Interaktivitas | 30% | ✅ Lengkap |
-| Fitur ES6+ | 25% | ✅ Lengkap |
-| localStorage | 20% | ✅ Tersimpan & termuat dengan benar |
-| Desain UI & UX | 15% | ✅ Sederhana & rapi |
-| Dokumentasi & Kerapian | 10% | ✅ Dengan README ini lengkap |
-
----
 
 ## Saran Pengembangan (Opsional)
 - Ganti `prompt()` edit dengan input langsung di dalam elemen list (inline edit).  
@@ -103,9 +91,7 @@ pemrograman_web_itera_123140106/
 - **Folder pertemuan:** `muhammadfadhel_123140106_pertemuan4`  
 - **Contoh commit message:**  
   ```
-  feat: add personal dashboard - pertemuan 4
+  feat: add personal dashboard - pertemuan 2
   ```
 
 ---
-
-✨ **Aplikasi sudah memenuhi seluruh kriteria tugas dan siap dikumpulkan.**
