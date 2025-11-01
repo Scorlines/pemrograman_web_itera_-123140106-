@@ -1,0 +1,48 @@
+/* src/pages/Home/Home.css */
+.home {
+  width: 100%;
+}
+
+.home-container {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.sidebar {
+  position: sticky;
+  top: 2rem;
+}
+
+.main-content {
+  width: 100%;
+}
+
+.main-content h1 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .home-container {
+    grid-template-columns: 300px 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .sidebar {
+    position: static;
+  }
+  
+  .main-content h1 {
+    font-size: 1.5rem;
+  }
+}
