@@ -7,6 +7,7 @@ requires = [
     'alembic',
     'waitress',
     'pyramid_debugtoolbar',
+    'psycopg2-binary',
 ]
 
 setup(

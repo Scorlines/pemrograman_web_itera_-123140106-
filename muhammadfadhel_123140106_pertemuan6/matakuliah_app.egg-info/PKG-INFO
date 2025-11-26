@@ -16,6 +16,7 @@ Requires-Dist: sqlalchemy
 Requires-Dist: alembic
 Requires-Dist: waitress
 Requires-Dist: pyramid_debugtoolbar
+Requires-Dist: psycopg2-binary
 Dynamic: author
 Dynamic: classifier
 Dynamic: keywords

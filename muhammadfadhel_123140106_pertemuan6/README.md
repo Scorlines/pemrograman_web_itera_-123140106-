@@ -1,12 +1,31 @@
 # 🚀 Panduan Menjalankan Aplikasi Manajemen Matakuliah
 
-Aplikasi API sederhana untuk mengelola data matakuliah menggunakan Pyramid Framework.
+Aplikasi API sederhana untuk mengelola data matakuliah menggunakan Pyramid Framework dan PostgreSQL.
 
 ## 📋 Persyaratan Sistem
 - Python 3.7 atau lebih baru
+- PostgreSQL (sudah terinstall dan running)
 - pip (sudah terinstall dengan Python)
 
-## ⚡ Langkah-Langkah Menjalankan Aplikasi
+## ⚡ Setup Cepat (Klik Otomatis)
+
+### Opsi 1: Menggunakan PowerShell Script (Direkomendasikan)
+1. **Klik kanan** pada file `setup.ps1`
+2. Pilih **"Run with PowerShell"**
+3. Ikuti instruksi di layar
+
+### Opsi 2: Menggunakan Batch File
+1. **Double-click** pada file `setup.bat`
+2. Ikuti instruksi di command prompt
+
+**Script akan otomatis:**
+- ✅ Install semua dependensi Python
+- ✅ Setup database PostgreSQL
+- ✅ Jalankan migrasi database
+- ✅ Start server Pyramid
+- ✅ Jalankan testing API
+
+## 🔧 Setup Manual (Alternatif)
 
 ### 1. Masuk ke Direktori Proyek
 ```bash
@@ -18,18 +37,29 @@ cd muhammadfadhel_123140106_pertemuan6
 pip install -e .
 ```
 
-### 3. Setup Database
+### 3. Setup Database PostgreSQL
+```bash
+# Pastikan PostgreSQL sudah running
+createdb matakuliah_db
+
+# Atau via psql:
+psql -U postgres -c "CREATE DATABASE matakuliah_db;"
+```
+
+### 4. Jalankan Migrasi Database
 ```bash
 alembic upgrade head
 ```
 
-### 4. Jalankan Server
+### 5. Jalankan Server
 ```bash
 pserve development.ini
 ```
 
-### 5. Akses Aplikasi
-Buka browser dan kunjungi: `http://127.0.0.1:6543`
+### 6. Akses Aplikasi
+Server berjalan di: `http://127.0.0.1:6543`
+
+**Catatan:** Aplikasi ini adalah REST API, bukan web app. Akses API melalui HTTP requests, bukan browser.
 
 ## 🧪 Testing API
 
