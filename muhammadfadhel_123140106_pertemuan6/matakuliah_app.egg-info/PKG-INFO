@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: matakuliah_app
+Version: 1.0
+Summary: Aplikasi Manajemen Matakuliah dengan Pyramid
+Home-page: 
+Author: Muhammad Fadhel
+Author-email: 
+Keywords: web pyramid pylons
+Classifier: Programming Language :: Python
+Classifier: Framework :: Pyramid
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Requires-Dist: pyramid
+Requires-Dist: pyramid_chameleon
+Requires-Dist: sqlalchemy
+Requires-Dist: alembic
+Requires-Dist: waitress
+Requires-Dist: pyramid_debugtoolbar
+Dynamic: author
+Dynamic: classifier
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: summary

@@ -1,0 +1,6 @@
+pyramid
+pyramid_chameleon
+sqlalchemy
+alembic
+waitress
+pyramid_debugtoolbar
